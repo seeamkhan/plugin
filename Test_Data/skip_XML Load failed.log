@@ -1,0 +1,1206 @@
+-----------------------------------------------------------------------------------
+--------------------------------- Made In Austria ---------------------------------
+-----------------------------------------------------------------------------------
+
+
+Logfile created on Thu Sep 22 14:12:24 2016
+
+
+------------------------------------------------------------------------------------
+-------------------------------- SYSTEM INFORMATION --------------------------------
+------------------------------------------------------------------------------------
+
+Start-Up Info:
+Version 3.8.3.60494 Win32 (Standard PC)
+Executable: C:\Program Files (x86)\vizrt\Viz3\viz.exe
+Current directory: C:\Program Files (x86)\vizrt\Viz3
+MAGICK_HOME: C:\Program Files (x86)\vizrt\Viz3
+
+
+User Information and Security Tokens:
+
+	Username = Administrator 
+	IsUserInAdminGroup = Yes
+	IsRunAsAdmin = Yes
+	IsProcessElevated = Yes
+	IsUacEnabled = Yes
+	token: SeIncreaseBasePriorityPrivilege: 1
+	token: SeCreateGlobalPrivilege: 1
+	token: SeCreatePagefilePrivilege: 1
+	token: SeIncreaseWorkingSetPrivilege: 1
+	token: SeLockMemoryPrivilege: 1
+my processes
+
+
+8% process memory and 59% physical memory is in use.
+There are     8115 total Mbytes of physical memory.
+There are     3248 free Mbytes of physical memory.
+There are    16229 total Mbytes of paging file.
+There are    11315 free Mbytes of paging file.
+There are     4095 total Mbytes of virtual memory.
+There are     3255 free Mbytes of virtual memory.
+There are        0 free Mbytes of extended memory.
+More than 2GB: Yes
+
+Current Process:
+
+	PageFaultCount: 247846
+	PeakWorkingSetSize: 383811584
+	WorkingSetSize: 343650304
+	QuotaPeakPagedPoolUsage: 799592
+	QuotaPagedPoolUsage: 768008
+	QuotaPeakNonPagedPoolUsage: 371236
+	QuotaNonPagedPoolUsage: 358548
+	PagefileUsage: 365416448
+	PeakPagefileUsage: 603234304
+
+Uptime = 00 days 00 hours 01 minutes
+
+
+Current Main Layer Scene  = None
+Current Front Layer Scene = None
+Current Back Layer Scene  = None
+
+Current command = MAIN*CONFIGURATION*DATABASE*USER GET
+
+Current plugin = None
+
+-------------------------------------------------------------------------------------------------------
+CMD: SYSCOUNT  RETRCOUT     DELTA   TYPE  SOURCE  SESSIONID  CLIENTIP  PEER  COMMAND
+FRM: SYSCOUNT  RETRCOUT     DELTA       SUMTIME     ANIM   MATRIX    VIDEO    ZSORT   RENDER    ATIME
+-------------------------------------------------------------------------------------------------------
+CMD:        1         1 :     0.503 01 00 7f000001 127.000.000.001 0B65FE00 --->  <-1 MAIN*GUI*PID SET 9516>
+                                    <---  <(not sent)>
+CMD:        1         1 :     0.304 01 00 7f000001 127.000.000.001 0B65FE00 --->  <2 MAIN*CONFIGURATION*GUI_AUTOGRABFOCUSSAVED GET>
+                                    <---  <2 1>
+CMD:        2         2 :     0.042 01 00 7f000001 127.000.000.001 0B65FE00 --->  <3 MAIN*CONFIGURATION*GUI_ICON_FONT GET>
+                                    <---  <3 Verdana>
+CMD:       65        65 :     0.031 01 00 7f000001 127.000.000.001 0B65FE00 --->  <4 MAIN*CONFIGURATION*GUI_FONT_SIZE GET>
+                                    <---  <4 12>
+CMD:      132       132 :     0.031 01 00 7f000001 127.000.000.001 0B65FE00 --->  <5 MAIN*CONFIGURATION*GUI_BUTTON_GRADIENT_LEVEL GET>
+                                    <---  <5 2>
+CMD:      186       186 :     0.030 01 00 7f000001 127.000.000.001 0B65FE00 --->  <6 MAIN*CONFIGURATION*GUI_BUTTON_MOUSEOVER_EFFECT GET>
+                                    <---  <6 1>
+CMD:      735       735 :     0.051 01 00 7f000001 127.000.000.001 0B65FE00 --->  <7 MAIN*CONFIGURATION*GUI*GLOBAL_COLORS GET>
+                                    <---  <7 fcc264 7c7c7c fcc264 7c7c7c 9d9d9d 7c7c7c 9d9d9d 7c7c7c 5a5a5a 7c7c7c 5a5a5a e1e1e1 ffffff b9b9b9 87ceeb 708090 bc8f8f 0000ff 87ceeb 202020 202020>
+CMD:      927       927 :     0.032 01 00 7f000001 127.000.000.001 0B65FE00 --->  <8 VERSION GET>
+                                    <---  <8 Version: 3.8.3.60494>
+CMD:      996       996 :     0.029 01 00 7f000001 127.000.000.001 0B65FE00 --->  <9 MAIN*PLATFORM GET>
+                                    <---  <9 Win32>
+CMD:     1053      1053 :     0.311 01 00 7f000001 127.000.000.001 0B65FE00 --->  <10 MAIN*VIZ_PUBLICDOCUMENTS_FOLDER GET>
+                                    <---  <10 C:\Users\Public\Documents\>
+CMD:     1099      1099 :     0.032 01 00 7f000001 127.000.000.001 0B65FE00 --->  <11 MAIN*CONFIGURATION*VERBOSE_LEVEL GET>
+                                    <---  <11 0>
+CMD:     1204      1204 :     0.030 01 00 7f000001 127.000.000.001 0B65FE00 --->  <12 MAIN*CONFIGURATION*DATABASE*MAX_SEARCH_RESULTS GET>
+                                    <---  <12 500>
+CMD:     1274      1274 :     0.033 01 00 7f000001 127.000.000.001 0B65FE00 --->  <13 MAIN*CONFIGURATION*DATABASE*SEARCH_DATE_MODE GET>
+                                    <---  <13 MODIFICATION>
+CMD:     6424      6424 :     0.060 01 00 7f000001 127.000.000.001 0B65FE00 --->  <14 MAIN*CONFIGURATION*FONT_CODE GET>
+                                    <---  <14 UTF_8>
+CMD:     6486      6486 :     0.043 01 00 7f000001 127.000.000.001 0B65FE00 --->  <15 MAIN*CONFIGURATION*DATABASE*TYPE_HIGHLIGHTING GET>
+                                    <---  <15 0>
+CMD:     6556      6556 :     0.031 01 00 7f000001 127.000.000.001 0B65FE00 --->  <16 MAIN*CONFIGURATION*DATABASE*DATE_FORMAT GET>
+                                    <---  <16 0>
+CMD:     6613      6613 :     0.033 01 00 7f000001 127.000.000.001 0B65FE00 --->  <17 MAIN*CONFIGURATION*SCENE_DEFAULTS*SHOW_MERGE_STYLE_DIALOG GET>
+                                    <---  <17 1>
+CMD:     6674      6674 :     0.030 01 00 7f000001 127.000.000.001 0B65FE00 --->  <18 MAIN*CONFIGURATION*GUI_SCREEN_LAYOUT_MODE GET>
+                                    <---  <18 NORMAL>
+CMD:     6740      6740 :     0.038 01 00 7f000001 127.000.000.001 0B65FE00 --->  <19 MAIN*CONFIGURATION*DATABASE*ARCHIVE_BIT_MODE GET>
+                                    <---  <19 64BIT>
+CMD:     6814      6814 :     0.035 01 00 7f000001 127.000.000.001 0B65FE00 --->  <20 MAIN*CONFIGURATION*DATABASE*IMPORTFLAGS GET>
+                                    <---  <20 65776>
+CMD:     7580      7580 :     0.036 01 00 7f000001 127.000.000.001 0B65FE00 --->  <21 MAIN*CONFIGURATION*BUBBLE*ACTIVE GET>
+                                    <---  <21 1>
+CMD:     7642      7642 :     0.029 01 00 7f000001 127.000.000.001 0B65FE00 --->  <22 MAIN*CONFIGURATION*BUBBLE*ON_DELAY GET>
+                                    <---  <22 300>
+CMD:     7709      7709 :     0.029 01 00 7f000001 127.000.000.001 0B65FE00 --->  <23 MAIN*CONFIGURATION*BUBBLE*OFF_DELAY GET>
+                                    <---  <23 10000>
+CMD:     7760      7760 :     0.055 01 00 7f000001 127.000.000.001 0B65FE00 --->  <24 DATABASE STATUS>
+                                    <---  <24 DISCONNECTED>
+CMD:     7813      7813 :     0.032 01 00 7f000001 127.000.000.001 0B65FE00 --->  <25 CONFIGURATION*DATABASE*GLOBAL_TIMEOUT GET>
+                                    <---  <25 30>
+CMD:     7869      7869 :     0.029 01 00 7f000001 127.000.000.001 0B65FE00 --->  <26 CONFIGURATION*DATABASE*OPENSERVER_TIMEOUT GET>
+                                    <---  <26 15>
+CMD:     7931      7931 :     0.031 01 00 7f000001 127.000.000.001 0B65FE00 --->  <27 MAIN*CONFIGURATION*DATABASE*REPLICATION_TIMEOUT GET>
+                                    <---  <27 15>
+CMD:     8097      8097 :     0.039 01 00 7f000001 127.000.000.001 0B65FE00 --->  <28 MAIN*CONFIGURATION*DATABASE*AUTOLOGIN GET>
+                                    <---  <28 0>
+CMD:     8149      8149 :     0.031 01 00 7f000001 127.000.000.001 0B65FE00 --->  <29 MAIN*CONFIGURATION*DATABASE*SHOW_AUTOLOGIN GET>
+                                    <---  <29 1>
+CMD:     9342      9342 :     0.047 01 00 7f000001 127.000.000.001 0B65FE00 --->  <30 MAIN*CONFIGURATION*DATABASE*FAILOVER GET>
+                                    <---  <30 >
+CMD:     9409      9409 :     0.030 01 00 7f000001 127.000.000.001 0B65FE00 --->  <31 MAIN*CONFIGURATION*DATABASE*ADDITIONAL_SERVERS GET>
+                                    <---  <31 >
+CMD:     9461      9461 :     0.029 01 00 7f000001 127.000.000.001 0B65FE00 --->  <32 MAIN*CONFIGURATION*DATABASE*NAMESERVER GET>
+                                    <---  <32 localhost>
+CMD:   164651    164651 :     0.064 01 00 7f000001 127.000.000.001 0B65FE00 --->  <33 MAIN*CONFIGURATION*DATABASE*PORT GET>
+                                    <---  <33 19396>
+CMD:   164708    164708 :     0.033 01 00 7f000001 127.000.000.001 0B65FE00 --->  <34 MAIN*CONFIGURATION*DATABASE*REPLICATION_TIMEOUT GET>
+                                    <---  <34 15>
+CMD:   165505    165505 :     0.056 01 00 7f000001 127.000.000.001 0B65FE00 --->  <35 MAIN*CONFIGURATION*DATABASE*SERVER GET>
+                                    <---  <35 VizDb>
+CMD:   166459    166459 :     0.044 01 00 7f000001 127.000.000.001 0B65FE00 --->  <36 MAIN*CONFIGURATION*DATABASE*USER GET>
+                                    <---  <36 Guest>
+CMD:   166787    166787 :     0.039 01 00 7f000001 127.000.000.001 0B65FE00 --->  <37 MAIN*CONFIGURATION*DATABASE*SERVER GET>
+                                    <---  <37 VizDb>
+CMD:   167699    167699 :     0.047 01 00 7f000001 127.000.000.001 0B65FE00 --->  <38 MAIN*CONFIGURATION*DATABASE*USER GET>
+                                    <---  <38 Guest>
+
+------------------------------------------------------------------------------------
+----------------------------STATUS--------------------------------------------------
+------------------------------------------------------------------------------------
+
+Viz is in Authoring Mode
+
+Hardware: System  QUADRO K5000 (NVIDIA Quadro K5000, no video) (channel 1 of 1)
+          Graphic NVIDIA Quadro K5000
+
+Operating System: Windows Vista/Windows 7
+
+
+
+
+
+------------------------------------------------------------------------------------
+----------------------------VERSION-------------------------------------------------
+------------------------------------------------------------------------------------
+
+Viz Version      : 3.8.3.60494
+Database Version : 0.0.0.0
+VizDbI Version   : 2.0.1.60494
+ 
+------------------------------------------------------------------------------------
+----------------------------STARTUP PARAMETERS--------------------------------------
+------------------------------------------------------------------------------------
+
+IsGenLocked               <0>
+IsVideoOut                <0>
+GetSynchronous            <0>
+IsVerbose                 <0>
+UseDisplayList            <1>
+MaxTextureSize            <0>
+IsAlternateSearch         <0>
+Image Auto Free           <1>
+Texture Auto Free         <0>
+Font Auto Free            <1>
+
+
+------------------------------------------------------------------------------------
+----------------------------INSTALLED DEVICES---------------------------------------
+------------------------------------------------------------------------------------
+
+Name                                                                            ; Manufacturer                       ;               Driver; UI-Num/Slot; Id
+Windows Socket 2.0 Non-IFS Service Provider Support Environment                 ;                                    ;                     ;     ; 
+Security Driver                                                                 ;                                    ;                     ;     ; 
+hardlock                                                                        ;                                    ;                     ;     ; 
+msisadrv                                                                        ;                                    ;                     ;     ; 
+Bitlocker Drive Encryption Filter Driver                                        ;                                    ;                     ;     ; 
+Windows Firewall Authorization Driver                                           ;                                    ;                     ;     ; 
+LDDM Graphics Subsystem                                                         ;                                    ;                     ;     ; 
+Link-Layer Topology Discovery Responder                                         ;                                    ;                     ;     ; 
+User Mode Driver Frameworks Platform Driver                                     ;                                    ;                     ;     ; 
+Security Processor Loader Driver                                                ;                                    ;                     ;     ; 
+HTTP                                                                            ;                                    ;                     ;     ; 
+Mount Point Manager                                                             ;                                    ;                     ;     ; 
+WinPcap Packet Driver (WPRO_41_2001)                                            ;                                    ;                     ;     ; 
+RDP Winstation Driver                                                           ;                                    ;                     ;     ; 
+NDIS System Driver                                                              ;                                    ;                     ;     ; 
+Ancillary Function Driver for Winsock                                           ;                                    ;                     ;     ; 
+System Attribute Cache                                                          ;                                    ;                     ;     ; 
+{cfb275b4-0a86-4f55-a28c-e2838fd26487}Gw64                                      ;                                    ;                     ;     ; 
+Hardware Policy Driver                                                          ;                                    ;                     ;     ; 
+NDProxy                                                                         ;                                    ;                     ;     ; 
+aksdf                                                                           ;                                    ;                     ;     ; 
+VgaSave                                                                         ;                                    ;                     ;     ; 
+Offline Files Driver                                                            ;                                    ;                     ;     ; 
+WFP Lightweight Filter                                                          ;                                    ;                     ;     ; 
+PEAUTH                                                                          ;                                    ;                     ;     ; 
+Remote Desktop Services Security Filter Driver                                  ;                                    ;                     ;     ; 
+Reflector Display Driver used to gain access to graphics data                   ;                                    ;                     ;     ; 
+Terminal Server Device Redirector Driver                                        ;                                    ;                     ;     ; 
+kl1                                                                             ;                                    ;                     ;     ; 
+TDTCP                                                                           ;                                    ;                     ;     ; 
+aksfridge                                                                       ;                                    ;                     ;     ; 
+Kernel Mode Driver Frameworks service                                           ;                                    ;                     ;     ; 
+QoS Packet Scheduler                                                            ;                                    ;                     ;     ; 
+KSecDD                                                                          ;                                    ;                     ;     ; 
+Common Log (CLFS)                                                               ;                                    ;                     ;     ; 
+Link-Layer Topology Discovery Mapper I/O Driver                                 ;                                    ;                     ;     ; 
+Dynamic Volume Manager                                                          ;                                    ;                     ;     ; 
+CNG                                                                             ;                                    ;                     ;     ; 
+NETBT                                                                           ;                                    ;                     ;     ; 
+RDP Encoder Mirror Driver                                                       ;                                    ;                     ;     ; 
+Beep                                                                            ;                                    ;                     ;     ; 
+Disk Virtual Machine Bus Acceleration Filter Driver                             ;                                    ;                     ;     ; 
+Remote Access IPv6 ARP Driver                                                   ;                                    ;                     ;     ; 
+Kaspersky Anti-Virus NDIS 6 Filter                                              ;                                    ;                     ;     ; 
+Storage volumes                                                                 ;                                    ;                     ;     ; 
+Null                                                                            ;                                    ;                     ;     ; 
+Performance Counters for Windows Driver                                         ;                                    ;                     ;     ; 
+TCP/IP Protocol Driver                                                          ;                                    ;                     ;     ; 
+kltdi                                                                           ;                                    ;                     ;     ; 
+NetIO Legacy TDI Support Driver                                                 ;                                    ;                     ;     ; 
+KSecPkg                                                                         ;                                    ;                     ;     ; 
+ETD Support Driver                                                              ;                                    ;                     ;     ; 
+NSI proxy service driver.                                                       ;                                    ;                     ;     ; 
+TCP/IP Registry Compatibility                                                   ;                                    ;                     ;     ; 
+kneps                                                                           ;                                    ;                     ;     ; 
+RDPCDD                                                                          ;                                    ;                     ;     ; 
+Generic USB Hub                                                                 ; (Generic USB Hub)                  ;       6.1.7601.18328;     ; USB\VID_05E3&PID_0608&REV_7763
+Generic USB Hub                                                                 ; (Generic USB Hub)                  ;       6.1.7601.18328;     ; USB\VID_8087&PID_0024&REV_0000
+Generic USB Hub                                                                 ; (Generic USB Hub)                  ;       6.1.7601.18328;     ; USB\VID_8087&PID_0024&REV_0000
+CD-ROM Drive                                                                    ; (Standard CD-ROM drives)           ;       6.1.7601.17514;     ; SCSI\CdRomhp______DVD_A__DH16AESH_3HH6
+Standard Dual Channel PCI IDE Controller                                        ; (Standard IDE ATA/ATAPI controllers);       6.1.7601.18231;     ; PCI\VEN_8086&DEV_1D3C&SUBSYS_1589103C&REV_05
+IDE Channel                                                                     ; (Standard IDE ATA/ATAPI controllers);       6.1.7601.18231;     ; Intel-1d3c
+IDE Channel                                                                     ; (Standard IDE ATA/ATAPI controllers);       6.1.7601.18231;     ; Intel-1d3c
+USB Composite Device                                                            ; (Standard USB Host Controller)     ;       6.1.7601.18328;     ; USB\VID_03F0&PID_034A&REV_0121
+USB Root Hub                                                                    ; (Standard USB Host Controller)     ;       6.1.7601.18328;     ; USB\ROOT_HUB20&VID8086&PID1D26&REV0005
+USB Root Hub                                                                    ; (Standard USB Host Controller)     ;       6.1.7601.18328;     ; USB\ROOT_HUB20&VID8086&PID1D2D&REV0005
+Texas Instruments USB Root Hub                                                  ; (Standard USB Host Controller)     ;            1.12.20.0;     ; USB\TIUSBD_Hub&VID_040E&PID_0100&REV_0000
+ACPI x64-based PC                                                               ; (Standard computers)               ;       6.1.7600.16385;     ; acpiapic
+Disk drive                                                                      ; (Standard disk drives)             ;       6.1.7600.16385;     ; SCSI\DiskIntel______Raid_0_Volume1.0.
+Disk drive                                                                      ; (Standard disk drives)             ;       6.1.7600.16385;     ; SCSI\DiskATA_____WDC_WD5000AAKX-61H18
+Standard PS/2 Keyboard                                                          ; (Standard keyboards)               ;       6.1.7601.17514;     ; ACPI\PNP0303
+HID Keyboard Device                                                             ; (Standard keyboards)               ;       6.1.7601.17514;     ; HID\VID_03F0&PID_034A&REV_0121&MI_00
+Generic PnP Monitor                                                             ; (Standard monitor types)           ;       6.1.7600.16385;     ; MONITOR\DELF047
+PCI bus                                                                         ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0A08
+System CMOS/real time clock                                                     ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0B00
+USB Input Device                                                                ; (Standard system devices)          ;       6.1.7601.18199;     ; USB\VID_03F0&PID_034A&REV_0121&MI_00
+Microsoft System Management BIOS Driver                                         ; (Standard system devices)          ;       6.1.7601.17514;     ; ROOT\mssmbios
+USB Input Device                                                                ; (Standard system devices)          ;       6.1.7601.18199;     ; USB\VID_03F0&PID_154A&REV_0100
+System board                                                                    ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C01
+System board                                                                    ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C01
+ACPI Fixed Feature Button                                                       ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\FixedButton
+System board                                                                    ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C01
+HID-compliant device                                                            ; (Standard system devices)          ;       6.1.7601.18199;     ; HID\VID_03F0&PID_034A&REV_0121&MI_01&Col01
+Motherboard resources                                                           ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C02
+Motherboard resources                                                           ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C02
+Motherboard resources                                                           ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C02
+Motherboard resources                                                           ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C02
+ACPI Module Device                                                              ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\ACPI0004
+Numeric data processor                                                          ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C04
+ACPI Power Button                                                               ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0C0C
+USB Input Device                                                                ; (Standard system devices)          ;       6.1.7601.18199;     ; USB\VID_03F0&PID_034A&REV_0121&MI_01
+Terminal Server Keyboard Driver                                                 ; (Standard system devices)          ;       6.1.7601.17514;     ; ROOT\RDP_KBD
+System timer                                                                    ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0100
+Motherboard resources                                                           ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\INT3F0D
+Terminal Server Mouse Driver                                                    ; (Standard system devices)          ;       6.1.7601.17514;     ; ROOT\RDP_MOU
+Programmable interrupt controller                                               ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0000
+Plug and Play Software Device Enumerator                                        ; (Standard system devices)          ;       6.1.7601.17514;     ; root\swenum
+Microsoft Virtual Drive Enumerator Driver                                       ; (Standard system devices)          ;       6.1.7601.17514;     ; ROOT\vdrvroot
+High precision event timer                                                      ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0103
+Volume Manager                                                                  ; (Standard system devices)          ;       6.1.7601.17514;     ; ROOT\VOLMGR
+Direct memory access controller                                                 ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0200
+System speaker                                                                  ; (Standard system devices)          ;       6.1.7601.17514;     ; ACPI\PNP0800
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) C600/X79 series chipset SMBus Host Controller - 1D22                   ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D22&SUBSYS_1589103C&REV_05
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 VTd/Memory Map/Misc - 0E28         ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E28&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 IIO RAS - 0E2A                     ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2A&SUBSYS_1589103C&REV_04
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 2a - 0E04    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E04&SUBSYS_1589103C&REV_04
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 3a - 0E08    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E08&SUBSYS_1589103C&REV_04
+Intel(R) C600/X79 series chipset PCI Express Root Port 4 - 1D16                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D16&SUBSYS_1589103C&REV_B5
+Intel(R) 82579LM Gigabit Network Connection                                     ; Intel                              ;           11.15.16.0;     ; PCI\VEN_8086&DEV_1502&SUBSYS_1589103C&REV_05
+Intel(R) Active Management Technology - SOL                                     ; Intel                              ;          7.1.21.1134;     ; PCI\VEN_8086&DEV_1D3D&SUBSYS_1589103C&REV_05
+Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #2 - 1D2D        ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D2D&SUBSYS_1589103C&REV_05
+Intel(R) C600/X79 series chipset PCI Express Root Port 2 - 1D12                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D12&SUBSYS_1589103C&REV_B5
+Intel(R) Management Engine Interface                                            ; Intel                              ;          7.1.21.1134;     ; PCI\VEN_8086&DEV_1D3A&SUBSYS_1589103C&REV_05
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) C600/X79 series chipset PCI Express Root Port 5 - 1D18                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D18&SUBSYS_1589103C&REV_B5
+Intel(R) C600/X79 series chipset PCI Express Root Port 3 - 1D14                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D14&SUBSYS_1589103C&REV_B5
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 1a - 0E02    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E02&SUBSYS_1589103C&REV_04
+Intel(R) C600/X79 series chipset PCI Express Virtual Root Port - 1D3E           ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D3E&SUBSYS_1589103C&REV_05
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 DMI2 - 0E00                        ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E00&SUBSYS_1589103C&REV_04
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) C600/X79 series chipset LPC Controller - 1D41                          ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D41&SUBSYS_1589103C&REV_05
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) C600/X79 series chipset High Definition Audio Controller - 1D20        ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D20&SUBSYS_1589103C&REV_05
+Intel(R) 82801 PCI Bridge - 244E                                                ; Intel                              ;       6.1.7601.17514;     ; PCI\VEN_8086&DEV_244E&SUBSYS_1589103C&REV_A5
+Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #1 - 1D26        ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D26&SUBSYS_1589103C&REV_05
+Intel(R) Xeon(R)†E7 v2/Xeon(R) E5 v2/Core i7 IOAPIC - 0E2C                      ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2C&SUBSYS_0E2C8086&REV_04
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
+Intel(R) C600 Series Chipset SATA RAID Controller                               ; Intel Corporation                  ;           3.1.0.1068;     ; PCI\VEN_8086&DEV_2826&SUBSYS_1589103C&REV_05
+Intel(R) C600 Series Chipset SAS RAID (SATA mode)                               ; Intel Corporation                  ;           3.1.0.1082;     ; PCI\VEN_8086&DEV_1D6B&SUBSYS_1589103C&REV_05
+LSI 1394 OHCI Compliant Host Controller                                         ; LSI                                ;       6.1.7601.17662;     ; PCI\VEN_11C1&DEV_5811&SUBSYS_1589103C&REV_70
+Matrox USB Bus Filter                                                           ; Matrox Electronic Systems          ;          9.7.0.21679;     ; USB\VID_04FA&PID_2490&REV_0002
+Matrox System Clock                                                             ; Matrox Electronic Systems          ;          9.7.0.21679;    0; MatroxVideoBus\00000010
+Matrox Multi-function Device                                                    ; Matrox Electronic Systems          ;          9.7.0.21679;    0; MatroxVideoBus\0000001C
+Microsoft Windows Management Interface for ACPI                                 ; Microsoft                          ;       6.1.7601.17514;     ; ACPI\PNP0C14
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+WAN Miniport (IP)                                                               ; Microsoft                          ;       6.1.7601.17514;     ; ms_ndiswanip
+High Definition Audio Controller                                                ; Microsoft                          ;       6.1.7601.17514;     ; PCI\VEN_10DE&DEV_0E0A&SUBSYS_0965103C&REV_A1
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+HID-compliant mouse                                                             ; Microsoft                          ;       6.1.7600.16385;     ; HID\VID_03F0&PID_154A&REV_0100
+WAN Miniport (Network Monitor)                                                  ; Microsoft                          ;       6.1.7601.17514;     ; ms_ndiswanbh
+UMBus Enumerator                                                                ; Microsoft                          ;       6.1.7601.17514;     ; UMB\UMBUS
+WAN Miniport (IKEv2)                                                            ; Microsoft                          ;       6.1.7601.17514;     ; ms_agilevpnminiport
+Remote Desktop Device Redirector Bus                                            ; Microsoft                          ;       6.1.7600.16385;     ; ROOT\RDPBUS
+WAN Miniport (PPTP)                                                             ; Microsoft                          ;       6.1.7601.17514;     ; ms_pptpminiport
+HID-compliant consumer control device                                           ; Microsoft                          ;       6.1.7600.16385;     ; HID\VID_03F0&PID_034A&REV_0121&MI_01&Col02
+UMBus Root Bus Enumerator                                                       ; Microsoft                          ;       6.1.7601.17514;     ; root\umbus
+WAN Miniport (IPv6)                                                             ; Microsoft                          ;       6.1.7601.17514;     ; ms_ndiswanipv6
+WAN Miniport (L2TP)                                                             ; Microsoft                          ;       6.1.7601.17514;     ; ms_l2tpminiport
+Microsoft ACPI-Compliant System                                                 ; Microsoft                          ;       6.1.7601.17514;     ; ACPI_HAL\PNP0C08
+WAN Miniport (SSTP)                                                             ; Microsoft                          ;       6.1.7601.17514;     ; ms_sstpminiport
+Microsoft Teredo Tunneling Adapter                                              ; Microsoft                          ;       6.1.7600.16385;     ; *TEREDO
+WAN Miniport (PPPOE)                                                            ; Microsoft                          ;       6.1.7601.17514;     ; ms_pppoeminiport
+RAS Async Adapter                                                               ; Microsoft                          ;       6.1.7601.17514;    0; SW\{eeab7790-c514-11d1-b42b-00805fc1270e}
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+File as Volume Driver                                                           ; Microsoft                          ;       6.1.7600.16385;     ; ROOT\BLBDRIVE
+Composite Bus Enumerator                                                        ; Microsoft                          ;       6.1.7601.17514;     ; ROOT\CompositeBus
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+Generic volume                                                                  ; Microsoft                          ;       6.1.7601.17567;     ; STORAGE\Volume
+Microsoft PS/2 Mouse                                                            ; Microsoft                          ;       6.1.7600.16385;     ; ACPI\PNP0F03
+NVIDIA Quadro K5000                                                             ; NVIDIA                             ;        10.18.13.6886;    2; PCI\VEN_10DE&DEV_11BA&SUBSYS_0965103C&REV_A1
+NVIDIA High Definition Audio                                                    ; NVIDIA                             ;            1.3.34.15;    0; HDAUDIO\FUNC_01&VEN_10DE&DEV_0040&SUBSYS_103C0965&REV_1001
+Realtek High Definition Audio                                                   ; Realtek                            ;           6.0.1.6449;    0; HDAUDIO\FUNC_01&VEN_10EC&DEV_0262&SUBSYS_103C1589&REV_1002
+SafeNet Inc. USB Key                                                            ; SafeNet Inc.                       ;             7.41.0.0;     ; USB\VID_0529&PID_0001&REV_0100
+SafeNet Inc. Hardlock Key                                                       ; SafeNet Inc.                       ;             7.41.0.0;    0; USB\Hardlock
+Texas Instruments XHCI Controller                                               ; Texas Instruments Incorporated     ;            1.12.20.0;     ; PCI\VEN_104C&DEV_8241&SUBSYS_1589103C&REV_02
+
+
+System:
+-------
+OS:                        Microsoft Windows 7 Professional 
+Service Pack:              Service Pack 1
+Architecture:              64-bit
+Language:                  1033
+NumberOfProcessors:        1
+NumberOfLogicalProcessors: 12
+PCSystemType:              Workstation
+PowerState:                Unknown
+PowerSupplyState:          Safe
+
+Motherboard:
+------------
+Manufacturer: Hewlett-Packard
+SerialNumber: SGH421S9P8
+Product:      1589
+Version:      0.00
+
+CPUs:
+-----
+DeviceID  ; Name                                              ; CurrentClockSpeed   ; MaxClockSpeed       ; L2CacheSize         ; L3CacheSize         ; L3CacheSize         
+CPU0      ; Intel(R) Xeon(R) CPU E5-1650 v2 @ 3.50GHz         ; 3501                ; 3501                ; 1536                ; 12288               ; 0                   
+
+Physical Memory:
+----------------
+BankLabel ; DeviceLocator            ; Manufacturer        ; PartNumber          ; Capacity            
+CPU0      ; CPU0-DIMM1               ; Hynix Semiconductor ; HMT451U7AFR8C-RD    ; 4294967296          
+CPU0      ; CPU0-DIMM8               ; Hynix Semiconductor ; HMT451U7AFR8C-RD    ; 4294967296          
+
+Video Controller:
+-----------------
+Description                   ;        DriverVersion; VideoModeDescription                    
+NVIDIA Quadro K5000           ;        10.18.13.6886; 1920 x 1200 x 4294967296 colors         
+
+
+
+------------------------------------------------------------------------------------
+----------------------------DATABASE------------------------------------------------
+------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------
+----------------------------INSTANCE------------------------------------------------
+------------------------------------------------------------------------------------
+
+                Object           Number of Instances
+------------------------------------------------------------------------------------
+                CFontPool              1
+                    CMain              1
+          CVAudioClipPool              1
+               CVBaseFont              1
+               CVClipPool              1
+            CVMouseOverIP              1
+    CVRenderToDiskManager              1
+        CVSharedMemoryMap              2
+                   CVTrio              1
+       CVVizCommunication              1
+           CVbaseFontPool              1
+          CVcharStylePool              1
+                 GEOMETRY              1
+            GEOM_IMPORTED              1
+                 Geompool              1
+                Imagepool              1
+                      KEY              1
+                 Material              10
+     MaterialAdvancedpool              1
+             Materialpool              1
+               OBJECTBASE              10
+                  PICTURE              6
+                   POSXYZ              13
+                 ROTATION              7
+                  SCALING              2
+                Scenepool              1
+                  TEXTURE              3
+     performace_counter_t              1
+
+
+------------------------------------------------------------------------------------
+----------------------------MEMORY--------------------------------------------------
+------------------------------------------------------------------------------------
+
+Viz uses main memory                         116615k
+All table size =                                 73
+Last object ID =                                 73
+Valid Objects in All table =                     73
+
+
+------------------------------------------------------------------------------------
+----------------------------TEXTURE MANAGER-----------------------------------------
+------------------------------------------------------------------------------------
+
+Texture Memory                  : 4096 Mbytes
+Available Texture Memory        : 4096 Mbytes
+Used Texture Memory             : 0 Mbytes
+Free Texture Memory             : 4096 Mbytes
+Max Texture size                : 16384 pixels
+
+
+------------------------------------------------------------------------------------
+----------------------------POOL STATISTICS-----------------------------------------
+------------------------------------------------------------------------------------
+
+=============================== SCENE =======================================
+
+0 elements in Pool
+
+NR                 uuid                         db     ref      id     loc
+--------------------------------------------------------------------------
+
+
+=============================== IMAGE =======================================
+
+3 elements in Pool
+
+NR                 uuid                         db     ref      id     loc
+--------------------------------------------------------------------------
+  0  <00000000-0000-0000-0000000000000000>      0       1        56   <IMAGE*#56>
+  1  <00000000-0000-0000-0000000000000000>      0       1        58   <IMAGE*#58>
+  2  <00000000-0000-0000-0000000000000000>      0       1        60   <IMAGE*#60>
+
+
+===============================  FONT =======================================
+
+0 elements in Pool
+
+NR                 uuid                         db     ref      id     loc
+--------------------------------------------------------------------------
+
+
+===============================  GEOM =======================================
+
+0 elements in Pool
+
+NR                 uuid                         db     ref      id     loc
+--------------------------------------------------------------------------
+
+
+============================== MATERIAL ======================================
+
+0 elements in Pool
+
+NR                 uuid                         db     ref      id     loc
+--------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------
+----------------------------CONSOLE OUTPUT------------------------------------------
+------------------------------------------------------------------------------------
+
+                                                                                
+                                                                                
+============================================================================    
+starting Viz Engine                                                             
+command line:                                                                   
+using database: ENABLED                                                         
+console is present                                                              
+restart on crash: ENABLED                                                       
+STARTUP:  VizEngine[9272]:Startup Purge Thread...                               
+Maximum number of supported texture units: 4                                    
+Maximum number of supported texture image units: 32                             
+graphic 0 NVIDIA Quadro K5000                                                   
+graphic 0 NVIDIA Quadro K5000                                                   
+                                                                                
+                                                                                
+Legal Notices.                                                                  
+This Vizrt software may utilize the following copyrighted material.             
+                                                                                
+---------------------------------------------------------------------           
+FBXSDK                                                                          
+This software contains Autodesk(R) FBX(R) code developed by Autodesk, Inc.      
+Copyright 2011 Autodesk, Inc. All rights, reserved. Such code is provided       
+"as is" and Autodesk, Inc. disclaims any and all warranties, whether            
+express or implied, including without limitation the implied warranties of      
+merchantability, fitness for a particular purpose or non-infringement of        
+third party rights. In no event shall Autodesk, Inc. be liable for any direct,  
+indirect, incidental, special, exemplary, or consequential damages (including,  
+but not limited to, procurement of substitute goods or services; loss of use,   
+data, or profits; or business interruption) however caused and on any theory    
+of liability, whether in contract, strict liability, or tort (including         
+negligence or otherwise) arising in any way out of such code.                   
+                                                                                
+                                                                                
+---------------------------------------------------------------------           
+FREETYPE                                                                        
+Portions of this software are copyright (C) 2006 The FreeType                   
+Project (www.freetype.org).  All rights reserved.                               
+The FreeType  Project is copyright (C) 1996-2000  by David Turner,              
+Robert Wilhelm, and Werner Lemberg.                                             
+                                                                                
+                                                                                
+---------------------------------------------------------------------           
+MELANGESDK                                                                      
+This software contains MAXON MELANGE SDK code developed by MAXON Computer GmbH  
+Copyright MAXON Computer GmbH. All rights reserved.                             
+/nSoftware License Agreement for MAXON MELANGE                                  
+                                                                                
+                                                                                
+This Software License Agreement (the "Agreement") is a legal agreement between  
+you and MAXON Computer GmbH, Max-Planck-Straﬂe 20, 61381 Friedrichsdorf,        
+Germany ("MAXON"), governing the use of the software development kit MELANGE.   
+                                                                                
+By downloading or using MELANGE, you agree to be bound by and comply with the   
+terms of this Agreement. If you do not agree to the terms of this Agreement,    
+you are not allowed to download or use MELANGE or any portion thereof.          
+                                                                                
+1. Subject Matter                                                               
+                                                                                
+ 1.1. MELANGE is a software development kit for the reading and writing of      
+ CINEMA 4D project files in the format ".c4d". It includes header files,        
+ compiled static libraries for various operating systems and compiler versions, 
+ programming examples and documentation (collectively referred toas "MELANGE"). 
+ MELANGE does not include the application CINEMA 4D which is required for the   
+ rendering of CINEMA 4D project files.                                          
+                                                                                
+ 1.2. MAXON offers MELANGE to you in machine code form via download from the    
+ internet by courtesy and at no cost.                                           
+                                                                                
+ 1.3. MAXON offers MELANGE to you "as is". MAXON does not warrant that MELANGE  
+ operates without interruption or error, has specific functions, complies to    
+ specific requirements and is merchantable, free of defects in quality or       
+ title, compatible with specific software and hardware and suitable for a       
+ particular purpose. Furthermore, MAXON does not warrant that the results       
+ obtained from any use of MELANGE will be accurate and reliable. You are solely 
+ responsible for your use of MELANGE on your hardware, for the integration of   
+ MELANGE in other software and for any use and distribution of such software.   
+                                                                                
+ 1.4. MAXON is under no obligation to provide technical maintenance and support 
+ to you, to rectify defects and to restore failed systems and lost data.        
+                                                                                
+ 1.5. MAXON may at its sole discretion modify, develop further and enhance      
+ MELANGE and change its functions, naming and formats, but shall not be obliged 
+ to provide such modifications to you.                                          
+                                                                                
+                                                                                
+2. Grant of License                                                             
+                                                                                
+ 2.1. Subject to the terms and conditions of this Agreement, MAXON hereby       
+ grants to you a non-exclusive and worldwide right to download, copy and        
+ use MELANGE.                                                                   
+                                                                                
+ 2.2. You may integrate the header files and compiled static libraries of       
+ MELANGE in your software product and distribute such components only as        
+ integrated part of your software product.                                      
+                                                                                
+ 2.3. Your may not modify and/or distribute the programming examples and        
+ documentation of MELANGE.                                                      
+                                                                                
+ 2.4. Except as expressly provided hereinabove, MAXON does not grant any        
+ express or implied rights or licenses to you.                                  
+                                                                                
+                                                                                
+3. Liability                                                                    
+                                                                                
+ 3.1. MAXON shall be liable without limitations (1) in case of intent and gross 
+ negligence; (2) in case of injuries to life, body or health; (3) pursuant to   
+ the terms of the German Product Liability Act; and (4) under a guarantee       
+ granted by MAXON.                                                              
+                                                                                
+ 3.2. Subject to Sec. 3.1 above, MAXONís liability for slightly negligent       
+ breaches of cardinal duties shall be limited to such damage which was typical  
+ for this kind of business and foreseeable upon the execution of this           
+ Agreement. Cardinal duties are duties of MAXON which enable the performance of 
+ this Agreement, i. e. are precondition of the performance of this Agreement,   
+ and which you may therefore rely on.                                           
+                                                                                
+ 3.3. MAXON shall not be liable irrespective of the legal grounds except as     
+ expressly set forth in Sec. 3.1 to 3.2 above.                                  
+                                                                                
+                                                                                
+4. Termination                                                                  
+                                                                                
+ 4.1. MAXON shall have the right to terminate this Agreement with immediate     
+ effect, if you (1) breach MAXONís intellectual property rights; or (2)         
+ materially breach any provision of this Agreement and fail to cure such breach 
+ within twenty (20) days after receiving written notice specifying such breach  
+ from MAXON.                                                                    
+                                                                                
+ 4.2. In the event of the termination of this Agreement, you shall immediately  
+ delete and destroy all copies and stop any use of MELANGE.                     
+                                                                                
+                                                                                
+5. General Provisions                                                           
+                                                                                
+ 5.1. This Agreement shall be construed in accordance with and governed by the  
+ laws of Germany, but excluding the principles of conflict of laws and the      
+ United Nation Convention on the International Sale of Goods (CISG).            
+                                                                                
+ 5.2. The Parties agree to the exclusive jurisdiction of the competent courts   
+ of Frankfurt am Main, Germany, in respect of any proceeding, suit or action    
+ arising out of or in connection with this Agreement, including its valid       
+ conclusion or its termination.                                                 
+                                                                                
+ 5.3. This Agreement sets forth the entire understanding of you and MAXON with  
+ respect to its subject matter and supersedes all prior or contemporaneous oral 
+ or written agreements, if any. Any general terms and conditions of either      
+ party shall not apply, even if the other party does not expressly object to    
+ them.                                                                          
+                                                                                
+ 5.4. This Agreement can be changed and amended only by a writing executed by   
+ both parties.                                                                  
+                                                                                
+                                                                                
+---------------------------------------------------------------------           
+OPENEXR                                                                         
+Copyright (c) 2006, Industrial Light & Magic, a division of Lucasfilm           
+Entertainment Company Ltd.  Portions contributed and copyright held by          
+others as indicated.  All rights reserved.                                      
+                                                                                
+                                                                                
+---------------------------------------------------------------------           
+PSAPI wrapper                                                                   
+Portions copyright (c) Chris Maunder, 1998                                      
+                                                                                
+Loading Configuration File C:\ProgramData\vizrt\Viz3\VIZ-Z420-AMD-0-0.cfg       
+Configuration File C:\ProgramData\vizrt\Viz3\VIZ-Z420-AMD-0-0.cfg not found. Loa
+ding viz.cfg                                                                    
+Creating Configuration File C:\ProgramData\vizrt\Viz3\VIZ-Z420-AMD-0-0.cfg      
+                                                                                
+Initialising Viz Engine Tracking Daemon ../vizstudio/bin/track.bat              
+Executing ../vizstudio/bin/track.bat                                            
+Arena:                                                                          
+Executing <../vizstudio/bin/track.bat -n >                                      
+CreateProcess VIZIO failed (2).                                                 
+                                                                                
+                                                                                
+STARTUP:  VizEngine-0[2900]:Startup Purge Thread...                             
+Checking for already running engine processes ...done.                          
+Writing run file C:\ProgramData\vizrt\viz3\viz_gpu1 done.                       
+                                                                                
+using GraphicsMagick 1.3.18 2013-03-10 Q8 http://www.GraphicsMagick.org/        
+Copyright (C) 2002-2013 GraphicsMagick Group.                                   
+Additional copyrights and licenses apply to this software.                      
+See http://www.GraphicsMagick.org/www/Copyright.html for details.               
+                                                                                
+Using low fragmentation heap.                                                   
+open dummy window on position 0 0                                               
+Maximum number of supported texture units: 4                                    
+Maximum number of supported texture image units: 32                             
+graphic 0 NVIDIA Quadro K5000                                                   
+******************************** InitExtensions ***************                 
+********************************                                                
+                                                                                
+                                                                                
+System: SHADERS                 : on                                            
+System: PIXEL DATA RANGE        : on                                            
+System: TEXTURE COMPRESSION     : on                                            
+System: TEXTURE NON POWER OF TWO: on                                            
+System: PBUFFER                 : off                                           
+System: YCBCR422                : off                                           
+System: GENERATE_MIPMAP         : on                                            
+System: ANISOTROPIC FILTER      : on                                            
+System: MULTISAMPLE             : on                                            
+System: MULTITEXTURE            : off                                           
+System: SEPARATE BLENDFUNC      : on                                            
+System: BLEND_COLOR             : off                                           
+                                                                                
+                                                                                
+Hardware: System   QUADRO K5000 (NVIDIA Quadro K5000, no video) (channel 1 of 1)
+                                                                                
+          Renderer Quadro K5000/PCIe/SSE2                                       
+          Graphic  NVIDIA Quadro K5000                                          
+          Driver   NVIDIA 10.18.13.6886                                         
+                                                                                
+NvAPI_GetDisplayDriverVersion():                                                
+   nvAdapterString:                                                             
+   nvBuildBranch:                                                               
+NvAPI_GetInterfaceVersionString():                                              
+NvVIOANCAPI_GetInterfaceVersionString:                                          
+Operating System: Windows Windows 7 (Version 6.1 build 7601)                    
+                                                                                
+Available Texture Memory: 4096mb                                                
+Maximum Texture Width/Height: 16384 Pixel                                       
+                                                                                
+Screen Info:                                                                    
+Viz is using a VerticalPhase of: 50.000000                                      
+                                                                                
+Rendering on GPU 1 NVIDIA Quadro K5000.                                         
+Maximum number of supported texture units: 4                                    
+Maximum number of supported texture image units: 32                             
+graphic 0 NVIDIA Quadro K5000                                                   
+Maximum number of supported texture units: 4                                    
+Maximum number of supported texture image units: 32                             
+graphic 0 NVIDIA Quadro K5000                                                   
+Maximum number of supported texture units: 4                                    
+Maximum number of supported texture image units: 32                             
+graphic 0 NVIDIA Quadro K5000                                                   
+6DOF input disabled.                                                            
+Sealevel GPI control disabled.                                                  
+WebServer disabled.                                                             
+Cluster synchronisation disabled.                                               
+Hand tracking disabled.                                                         
+                                                                                
+Version 3.8.3.60494 Win32 (Standard PC)                                         
+Executable: C:\Program Files (x86)\vizrt\Viz3\viz.exe                           
+Current directory: C:\Program Files (x86)\vizrt\Viz3                            
+MAGICK_HOME: C:\Program Files (x86)\vizrt\Viz3                                  
+                                                                                
+Initializing Camera Shared Memory                                               
+opening camera shared memory (path: <VIZ_CAMERA_ARENA>)                         
+INFO: create new semaphore FrameLock                                            
+INFO: create new semaphore CockpitLock                                          
+                                                                                
+Initializing viz_io Shared Memory                                               
+opening viz_io shared memory (path: <VIZ_IO_ARENA>)                             
+                                                                                
+Initializing status Shared Memory                                               
+INFO: create new semaphore StatusLock                                           
+                                                                                
+Initializing Sensor Communication                                               
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ Audio init                                                                     
+Audio mode: default                                                             
+                                                                                
+                                                                                
+Creating Directsound Devices                                                    
+Found: Speakers (Realtek High Definition Audio)                                 
+Initialisation of Speakers (Realtek High Definition Audio) canceled. Device not 
+needed.                                                                         
+Setup Driver not found or not valid. Assigning default driver!                  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                       
+!!!                  WARNING                          !!!                       
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                       
+No driver assigned!                                                             
+Try to initialize the first available driver in the list.                       
+Primary Buffer Caps: Speakers (Realtek High Definition Audio)                   
+Size in Bytes: 32768                                                            
+CPU Overhead: 0                                                                 
+Size: 20                                                                        
+Unlock Transfer Rate: 0                                                         
+Not able to create ring buffer                                                  
+Start initialisation of Speakers (Realtek High Definition Audio).               
+Audio Device DirectSound                                                        
+                                                                                
+Input Device not found                                                          
+Fallback Tree...                                                                
+TM: Texture 1 blacktex (1x1 - size: 16k) on pipe 0 defined.                     
+TM: 229592k (5.5%) texture memory on pipe 0 allocated.                          
+TM: Texture 2 blacktexRGB (1x1 - size: 16k) on pipe 0 defined.                  
+TM: 230104k (5.5%) texture memory on pipe 0 allocated.                          
+Database Root Directory is <./data>                                             
+Initializing Network Communication                                              
+waiting for connect requests on port 6100                                       
+                                                                                
+waiting for connect requests on port 6999                                       
+waiting for connect requests on port 6998                                       
+                                                                                
+Waiting for login ...                                                           
+                                                                                
+Initializing Plugins                                                            
+STARTUP:  VizEngine-0[7540]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[5956]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[9356]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[8536]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[6428]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[7964]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[9488]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[8988]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[9408]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[6848]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[8424]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[2780]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[9424]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[6724]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[6560]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[7024]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[7056]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[8316]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[7524]:PluginBgLoader starting up.                         
+STARTUP:  VizEngine-0[7600]:PluginBgLoader starting up.                         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlTgalpha.vip: Inactive.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlTgclip.vip: Inactive.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\EVSControl.vip: Inactive.              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FormatNumber.vip: Inactive.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Mt2dControl.vip: Inactive.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Mt3dControl.vip: Inactive.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MtButton.vip: Inactive.                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MtNavigator.vip: Inactive.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MtSensor.vip: Inactive.                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MtTelestrator.vip: Inactive.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\NViso.vip: Inactive.                   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PQuad.vip: Inactive.                   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SafeArea.vip: Inactive.                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Texturemovie.vip: Inactive.            
+NOTICE:  VizEngine-0[9920]:C:\Program Files (x86)\vizrt\Viz3\Plugin\ ignored 14,
+ scheduled 271, sync init'd 0 plugins.                                          
+NOTICE:  VizEngine-0[9920]:C:\ProgramData\vizrt\Viz3\ScriptPlugins\ ignored 0, s
+cheduled 0, sync init'd 0 plugins.                                              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\2DFollow.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\2DLine.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\2DPatch.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\2DRibbon.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Advanced_Counter.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AlphaMap.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AnalogWatch.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AnisotropicLight.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ApplySharedMemory.vip: Load ok. Init ok
+.                                                                               
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AreaChart.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AreaStackMgr.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Arrow.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AutoFollow.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\AutoRotate.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BackgroundClip.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Bar.vip: Load ok. Init ok.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BarChart.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BarStackMgr.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BarValue.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BarValues.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Blur.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BoundingActions.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BoundingBox.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BrowserCEF.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\BumpMap.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cartoon.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFx2DFollow.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxAlpha.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxArrange.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxColor.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxExplode.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxJitterAlpha.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxJitterColor.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxJitterPos.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxJitterScale.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxPlusPlus.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxRotate.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CFxScale.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ChromaKeyer.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Circle.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\CircleArrange.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ClockRotation.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cloner.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cloth.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ClothFlag.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cobra.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Coco.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cogwheel.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Colin.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Colorize.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ColorPerVertex.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cone.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Connector.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ContourBold.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlAction.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlActionTable.vip: Load ok. Init o
+k.                                                                              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlAudio.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlBars.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlChart.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlClip.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlDataAction.vip: Load ok. Init ok
+.                                                                               
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlDataPool.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlDPObject.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlFeedview.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlGeom.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlHideinrange.vip: Load ok. Init o
+k.                                                                              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlHideOnEmpty.vip: Load ok. Init o
+k.                                                                              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlImage.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlKeyframe.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlList.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlMap.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlMaterial.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlNum.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlObject.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlOmo.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlParameter.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlClock.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlCondition.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlContainer.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlPayload.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlPie.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlScaling.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlSigncontainer.vip: Load ok. Init
+ ok.                                                                            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlSoftclip.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlStoppoint.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlText.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlVBI.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlVideo.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ControlWoC.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ConvertCase.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cora.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Corena.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Counter.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cube.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cycloid.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cylinder.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Cylinder3.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DataFit.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DataImport.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DataLabel.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DataStorage.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Dexter.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DisplacementMap.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DropShadow.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\DVEFollow.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Eclipse.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Emboss.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Fade_Rectangle.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FeedActivate.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FeedHideInRange.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FeedView.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FieldRenamer.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FileCard.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterBlendImage.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterBlur.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterColorBalance.vip: Load ok. Init o
+k.                                                                              
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterRadialBlur.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterSepia.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FilterSharpen.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Flag.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Fluid.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\FrameMask.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\GeoGraffiti.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\GlobalMagnifierController.vip: Load ok.
+ Init ok.                                                                       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Gooch.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Grabbit.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Graffitex.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Graffiti.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Graph.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Graph2D.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Grid.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Heartbeat.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Icosahedron.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ImageClip.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ImageFx.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ImageLink.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ImageMask.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ImageProportions.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Italic.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Jack.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\JpegRenderer.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Justifier.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LEDPanel.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\lightblur.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LightingShader.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LineChart.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LineStackMgr.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LOD.vip: Load ok. Init ok.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\LODManager.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Magnify.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\markText.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Match_It.vip: Load ok. Init ok.        
+ERROR: File 'C:\Program Files (x86)\vizrt\Viz3\Plugin\MatroxFileWriter.vip' is n
+ot a valid Viz Engine plugin                                                    
+(The specified module could not be found. Error code = 126) ().                 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MatroxFileWriter.vip: Load failed. Init
+ failed.                                                                        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Maxsize.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MaxSizeLines.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MoViz.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MultiTextureBlend.vip: Load ok. Init ok
+.                                                                               
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Noggi.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Object_zoom.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Omo.vip: Load ok. Init ok.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\OutLine.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Pablo.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Parlament.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PathFinder.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PieChart.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PieSlice.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PieValues.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Placeholder.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\PNGRenderer.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Pointer.vip: Load ok. Init ok.         
+Plugin QuicktimeRenderer: InitializeQTML failed  -2093                          
+error: could not send command <0 COMMAND NO_DELAY RENDER_TO_DISK INFO_MESSAGE {P
+lugin QuicktimeRenderer: InitializeQTML failed  -2093}>                         
+Quicktime not installed?                                                        
+ERROR: Plugin 'C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip' c
+annot be used, because required software is not installed.                      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip: Load ok. Init fa
+iled.                                                                           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Rectangle.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFx2DSphere.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxClouds.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\noise.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Normal.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Nquad.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxColliderSrc.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxColliderTgt.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxCollisionManager.vip: Load ok. Init 
+ok.                                                                             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxFlame.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxLatLong.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxMagnet.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxSmoke.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxTurb.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxVortex.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Ring.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Roll.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\rotationsOrder.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttAnisotropicShader.vip: Load ok. Init
+ ok.                                                                            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttBrushedMetalShader.vip: Load ok. Ini
+t ok.                                                                           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttBumpGlossyShader.vip: Load ok. Init 
+ok.                                                                             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttBumpOptimizedShader.vip: Load ok. In
+it ok.                                                                          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttFabricShader.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttGlassShader.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttGoochShader.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttMetalShader.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttMicrostructureShader.vip: Load ok. I
+nit ok.                                                                         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttScreenShader.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttVelvetShader.vip: Load ok. Init ok. 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\RttWoodGlossyShader.vip: Load ok. Init 
+ok.                                                                             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ScatterChart.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SceneSyncProperties.vip: Load ok. Init 
+ok.                                                                             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ScreenPositionToWorldPosition.vip: Load
+ ok. Init ok.                                                                   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Scroller.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\ScrollerAction.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SimpleBumpMap.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SlideShow.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Softclip.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Softmask.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Sphere.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SplinePath.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\SplineStrip.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Spring.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Star.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\StockChart.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TexComponent.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TextBG.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TextFxVertexExplode.vip: Load ok. Init 
+ok.                                                                             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TextLink.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TextParam.vip: Load ok. Init ok.       
+XML load failed                                                                 
+XML load failed                                                                 
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TextToSpeech.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Texture2.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxAlpha.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxArrange.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxColor.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxColorPerVertex.vip: Load ok. Init ok
+.                                                                               
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxEmoticons.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxExplode.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxJitterAlpha.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxJitterPos.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxJitterScale.vip: Load ok. Init ok.  
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFXPlusPlus.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\System_time.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Temo.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxRotate.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxScale.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxSize.vip: Load ok. Init ok.         
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxSlide.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TFxWrite.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TgaRenderer.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TiffRenderer.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TimeDisplace.vip: Load ok. Init ok.    
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Toggle.vip: Load ok. Init ok.          
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Torus.vip: Load ok. Init ok.           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TransitionLayers.vip: Load ok. Init ok.
+                                                                                
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TreeProps.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TreeStatus.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Triangle.vip: Load ok. Init ok.        
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TrioScroll.vip: Load ok. Init ok.      
+C:\Program Files (x86)\vizrt\Viz3\Plugin\TrioScrollElement.vip: Load ok. Init ok
+.                                                                               
+C:\Program Files (x86)\vizrt\Viz3\Plugin\VCF.vip: Load ok. Init ok.             
+C:\Program Files (x86)\vizrt\Viz3\Plugin\VCF_Param.vip: Load ok. Init ok.       
+C:\Program Files (x86)\vizrt\Viz3\Plugin\VideoRenderer.vip: Load ok. Init ok.   
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Wall.vip: Load ok. Init ok.            
+C:\Program Files (x86)\vizrt\Viz3\Plugin\WaterShader.vip: Load ok. Init ok.     
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Wave.vip: Load ok. Init ok.            
+waiting on plugins ...                                                          
+SHUTDOWN:  VizEngine-0[7600]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[7524]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[9356]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[7540]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[6724]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[8536]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[6560]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[9424]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[6428]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[9488]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[7024]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[8988]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[9408]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[7056]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[8424]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[8316]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[2780]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[6848]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[7964]:PluginBgLoader shutting down.                      
+SHUTDOWN:  VizEngine-0[5956]:PluginBgLoader shutting down.                      
+NOTICE:  VizEngine-0[9920]:total: ignored 14, async init'd 257, sync init'd 0 pl
+ugins.                                                                          
+NOTICE:  VizEngine-0[9920]:initialized 271 from 271 scheduled and 14 ignored plu
+gins.                                                                           
+                                                                                
+Init VTS SYSTEM                                                                 
+End of Initialization                                                           
+                                                                                
+Starting video Hardware                                                         
+                                                                                
+Entering Main Loop...                                                           
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+clog                                                                            
+
+
+-----------------------------------------------------------------------------------
+--------------------------------- Made In Austria ---------------------------------
+-----------------------------------------------------------------------------------
+
+
