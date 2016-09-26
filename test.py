@@ -21,19 +21,24 @@ def count_plugin():
     failed_plugin_list = []
     current = ''
     for i, line in enumerate(f):
-        all_line_list.append(line)
+        new_all_line_list = all_line_list.append(line)
+
         if vip_string in line:
             if success in line:
                 current = i
                 success_count += 1
+                test = ''.join(new_all_line_list)
+                write_output(test)
             if load_fail in line or init_fail in line:
                 start = "\\"
                 end = ":"
                 fail_count += 1
-                if video_string in all_line_list:
-                    print "ok....."
-                    test = ''.join(all_line_list)
-                    write_output(test)
+                # test = ''.join(all_line_list)
+                # write_output(test)
+                # if video_string in all_line_list:
+                #     print "ok....."
+                #     test = ''.join(all_line_list)
+                #     write_output(test)
                 # plugin_load_error_message = ''.join(all_line_list[current+1:i])
                 # failed_plugin_list.append(plugin_load_error_message)
 
@@ -51,12 +56,14 @@ def count_plugin():
         if (matrox_not_installed_string in data) and (matrox_failed_string in data):
             print "matrox failed found."
             fail_count -= 1
+            matrox_discard = True
             # print fail_count
     else:
         print "VGA found"
         if matrox_failed_string in data:
             print "matrox failed found."
             fail_count -= 1
+            matrox_discard = True
             # print fail_count
 
 
