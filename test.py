@@ -30,11 +30,10 @@ def count_plugin():
                 start = "\\"
                 end = ":"
                 fail_count += 1
-                for video_string in l
-                    plugin_load_error_message = ''.join(all_line_list[current+1:i])
-                    failed_plugin_list.append(plugin_load_error_message)
-                    # print plugin_load_error_message
-                    # print ''.join(all_line_list[current+1:i])
+                plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                failed_plugin_list.append(plugin_load_error_message)
+
+
     print '\n'.join(failed_plugin_list)
     # print "Successful plugins load: %d" % success_count
     # print ".......Fail plugins: %d" % fail_count
