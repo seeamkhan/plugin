@@ -30,10 +30,15 @@ def count_plugin():
                 start = "\\"
                 end = ":"
                 fail_count += 1
-                plugin_load_error_message = ''.join(all_line_list[current+1:i])
-                failed_plugin_list.append(plugin_load_error_message)
+                if video_string in all_line_list:
+                    print "ok....."
+                    test = ''.join(all_line_list)
+                    write_output(test)
+                # plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                # failed_plugin_list.append(plugin_load_error_message)
 
     error_message_list = '\n'.join(failed_plugin_list)
+    # write_output(error_message_list)
     # print '\n'.join(failed_plugin_list)
     # print "Successful plugins load: %d" % success_count
     # print ".......Fail plugins: %d" % fail_count
@@ -58,10 +63,12 @@ def count_plugin():
     print "Successful plugins load: %d" % success_count
     print "Fail plugins: %d" % fail_count
 
-    output = open("write.txt", 'w')
-    output.truncate()
-    output.write(error_message_list)
-    output.close()
+def write_output(something):
+    target = open("write.txt", 'w')
+    target.truncate()
+    # output.write(error_message_list)
+    target.write(something)
+    target.close()
 
 
 
