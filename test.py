@@ -17,19 +17,25 @@ def count_plugin():
     load_fail = ".vip: Load failed."
     init_fail = "Init failed"
 
-    list = []
-    failedPluginList = []
+    all_line_list = []
+    failed_plugin_list = []
     current = ''
     for i, line in enumerate(f):
-        list.append(line)
+        all_line_list.append(line)
         if vip_string in line:
             if success in line:
                 current = i
                 success_count += 1
             if load_fail in line or init_fail in line:
+                start = "\\"
+                end = ":"
                 fail_count += 1
-                # print '\n'.join(list[current+1:i])
-
+                for video_string in l
+                    plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                    failed_plugin_list.append(plugin_load_error_message)
+                    # print plugin_load_error_message
+                    # print ''.join(all_line_list[current+1:i])
+    print '\n'.join(failed_plugin_list)
     # print "Successful plugins load: %d" % success_count
     # print ".......Fail plugins: %d" % fail_count
 

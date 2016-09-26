@@ -19,14 +19,14 @@ def count_plugin_lines():
         if vip_string in line:
             if success in line:
                 current = i
-                success_count = success_count+1
+                success_count += 1
             if fail in line:
                 start="\\"
                 end = ":"
-                fail_count = fail_count+1
-                plugin_name = fail.index(start,end)
-                print "plugin name is ....................."+plugin_name
-                print '\n'.join(list[current+1:i])
+                fail_count += 1
+                # plugin_name = fail.index(start,end)
+                # print "plugin name is ....................."+plugin_name
+                print ''.join(list[current+1:i])
     print "Successful plugin load: %d" % success_count
     print "Fail plguin: %d" % fail_count
             # print line
