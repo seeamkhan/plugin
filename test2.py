@@ -2,16 +2,18 @@ from sys import argv
 import io
 
 
-script, filename = argv
-
-video_string = "Hardware: System  Video"
+# script, filename = argv
+print "To get the plugin report, you need to enter the logfile name.\nor enter the full file path of the logfile if it's not in the same location.\nFor Example: Test_data/PluginLoadError.log"
+raw_input('press ENTER to continue or CTRL-C to exit..')
+video_string = 'Hardware: System  Video'
 matrox_not_installed_string = "Matrox DSX.utils version is empty."
 matrox_failed_string = "Plugin\MatroxFileWriter.vip: Load"
-
+filename = raw_input('Enter the file name here: ')
 
 def count_plugin():
     success_count = 0
     fail_count = 0
+
     f = open(filename)
     vip_string = ".vip: "
     success = "Init ok"
@@ -86,3 +88,4 @@ failed_count_string = "The number of plugins failed to load or initiate: %d" % f
 final_output = "%s\n%s\n\n%s\n" % (success_count_string, failed_count_string, error_message)
 
 write_output(final_output)
+print "The report has been generated successfully...\nPlease check the file: 'plugin_report.txt' for details."
