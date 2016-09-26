@@ -1,4 +1,6 @@
 from sys import argv
+import io
+
 
 script, filename = argv
 
@@ -70,9 +72,8 @@ def find_plugin_name(line, plugin_name_start, plugin_name_end):
 
 
 def write_output(something):
-    target = open("write.txt", 'w')
+    target = open("plugin_report.txt", 'w')
     target.truncate()
-    # output.write(error_message_list)
     target.write(something)
     target.close()
 
@@ -82,6 +83,6 @@ error_message = count_plugin()[2]
 
 success_count_string = "The number of plugins loaded correctly: %d" % success_count
 failed_count_string = "The number of plugins failed to load or initiate: %d" % fail_count
-final_output = "%s\n%s\n\n%s\n"% (success_count_string, failed_count_string, error_message)
+final_output = "%s\n%s\n\n%s\n" % (success_count_string, failed_count_string, error_message)
 
 write_output(final_output)
