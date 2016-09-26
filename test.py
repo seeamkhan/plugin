@@ -85,3 +85,4 @@ failed_count_string = "The number of plugins failed to load or initiate: %d" % f
 final_output = "%s\n%s\n\n%s\n" % (success_count_string, failed_count_string, error_message)
 
 write_output(final_output)
+print "The report has been generated successfully...\nPlease check the file: 'plugin_report.txt' for details."
