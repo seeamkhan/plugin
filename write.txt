@@ -1,0 +1,13 @@
+The number of plugins loaded correctly: 239
+The number of plugins failed to load or initiate: 1
+
+Plugin name: QuicktimeRenderer.vip
+Error Message for QuicktimeRenderer.vip: 
+Plugin QuicktimeRenderer: InitializeQTML failed  -2093                          
+error: could not send command <0 COMMAND NO_DELAY RENDER_TO_DISK INFO_MESSAGE {P
+lugin QuicktimeRenderer: InitializeQTML failed  -2093}>                         
+Quicktime not installed?                                                        
+ERROR: Plugin 'C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip' c
+annot be used, because required software is not installed.                      
+
+

@@ -8,7 +8,6 @@ matrox_failed_string = "Plugin\MatroxFileWriter.vip: Load"
 
 
 def count_plugin():
-    print "Counting plugins:"
     success_count = 0
     fail_count = 0
     f = open(filename)
@@ -19,8 +18,8 @@ def count_plugin():
     plugin_name_start = "\\Plugin\\"
     plugin_name_end = ": Load "
     all_line_list = []
-    failed_plugin_list = []
     current = ''
+    error_message_list = []
 
     for i, line in enumerate(f):
         all_line_list.append(line)
@@ -35,31 +34,32 @@ def count_plugin():
                     else:
                         if video_string in all_line_list:
                             fail_count += 1
-                            print line
-                            print find_plugin_name(line, plugin_name_start, plugin_name_end)
-                            # collect the error message
-                            plugin_load_error_message = ''.join(all_line_list[current + 1:i])
-                            print plugin_load_error_message
-                            # failed_plugin_list.append(plugin_load_error_message)
+                            plugin_name = find_plugin_name(line, plugin_name_start, plugin_name_end)
+                            plugin_name_string = "Plugin name: %s\n" % plugin_name
+                            error_message_list.append(plugin_name_string)
+                            plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                            plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                            if not plugin_load_error_message:
+                                error_message_list.append("No error message found.")
+                            else:
+                                error_message_list.append(plugin_load_error_message_final)
                 else:
                     fail_count += 1
-                    print line
-                    print find_plugin_name(line, plugin_name_start, plugin_name_end)
-                    # collect the error message
+                    # print line
+                    # print find_plugin_name(line, plugin_name_start, plugin_name_end)
+                    plugin_name = find_plugin_name(line, plugin_name_start, plugin_name_end)
+                    plugin_name_string = "Plugin name: %s\n" % plugin_name
+                    error_message_list.append(plugin_name_string)
                     plugin_load_error_message = ''.join(all_line_list[current + 1:i])
-                    print plugin_load_error_message
+                    plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                    if not plugin_load_error_message:
+                        error_message_list.append("No error message found.")
+                    else:
+                        error_message_list.append(plugin_load_error_message_final)
 
-                    # # collect all the error message
-                    # plugin_load_error_message = ''.join(all_line_list[current+1:i])
-                    # failed_plugin_list.append(plugin_load_error_message)
-    error_message_list = '\n'.join(failed_plugin_list)
-
-    # error_message_list = '\n'.join(failed_plugin_list)
-    # write_output(error_message_list)
-    # print '\n'.join(failed_plugin_list)
-
-    print "Successful plugins load: %d" % success_count
-    print "Fail plugins: %d" % fail_count
+    error_message = ''.join(error_message_list)
+    write_output(error_message)
+    return success_count, fail_count, error_message
 
 
 def find_plugin_name(line, plugin_name_start, plugin_name_end):
@@ -67,16 +67,21 @@ def find_plugin_name(line, plugin_name_start, plugin_name_end):
     end = line.find(plugin_name_end)
     plugin_name = line[start:end]
     return plugin_name
-    # print plugin_name
 
 
-# def write_output(something):
-#     target = open("write.txt", 'w')
-#     target.truncate()
-#     # output.write(error_message_list)
-#     target.write(something)
-#     target.close()
+def write_output(something):
+    target = open("write.txt", 'w')
+    target.truncate()
+    # output.write(error_message_list)
+    target.write(something)
+    target.close()
 
+success_count = count_plugin()[0]
+fail_count = count_plugin()[1]
+error_message = count_plugin()[2]
 
+success_count_string = "The number of plugins loaded correctly: %d" % success_count
+failed_count_string = "The number of plugins failed to load or initiate: %d" % fail_count
+final_output = "%s\n%s\n\n%s\n"% (success_count_string, failed_count_string, error_message)
 
-count_plugin()
+write_output(final_output)
