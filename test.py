@@ -1,5 +1,4 @@
 from sys import argv
-import io
 
 
 script, filename = argv
