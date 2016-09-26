@@ -295,13 +295,13 @@ System speaker                                                                  
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel(R) C600/X79 series chipset SMBus Host Controller - 1D22                   ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D22&SUBSYS_1589103C&REV_05
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 VTd/Memory Map/Misc - 0E28         ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E28&SUBSYS_1589103C&REV_04
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 IIO RAS - 0E2A                     ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2A&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 VTd/Memory Map/Misc - 0E28         ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E28&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 IIO RAS - 0E2A                     ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2A&SUBSYS_1589103C&REV_04
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 2a - 0E04    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E04&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 2a - 0E04    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E04&SUBSYS_1589103C&REV_04
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 3a - 0E08    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E08&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 3a - 0E08    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E08&SUBSYS_1589103C&REV_04
 Intel(R) C600/X79 series chipset PCI Express Root Port 4 - 1D16                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D16&SUBSYS_1589103C&REV_B5
 Intel(R) 82579LM Gigabit Network Connection                                     ; Intel                              ;           11.15.16.0;     ; PCI\VEN_8086&DEV_1502&SUBSYS_1589103C&REV_05
 Intel(R) Active Management Technology - SOL                                     ; Intel                              ;          7.1.21.1134;     ; PCI\VEN_8086&DEV_1D3D&SUBSYS_1589103C&REV_05
@@ -313,16 +313,16 @@ Intel Processor                                                                 
 Intel(R) C600/X79 series chipset PCI Express Root Port 5 - 1D18                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D18&SUBSYS_1589103C&REV_B5
 Intel(R) C600/X79 series chipset PCI Express Root Port 3 - 1D14                 ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D14&SUBSYS_1589103C&REV_B5
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 1a - 0E02    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E02&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 PCI Express Root Port 1a - 0E02    ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E02&SUBSYS_1589103C&REV_04
 Intel(R) C600/X79 series chipset PCI Express Virtual Root Port - 1D3E           ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D3E&SUBSYS_1589103C&REV_05
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 DMI2 - 0E00                        ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E00&SUBSYS_1589103C&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 DMI2 - 0E00                        ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E00&SUBSYS_1589103C&REV_04
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel(R) C600/X79 series chipset LPC Controller - 1D41                          ; Intel                              ;           9.2.3.1016;     ; PCI\VEN_8086&DEV_1D41&SUBSYS_1589103C&REV_05
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel(R) C600/X79 series chipset High Definition Audio Controller - 1D20        ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D20&SUBSYS_1589103C&REV_05
 Intel(R) 82801 PCI Bridge - 244E                                                ; Intel                              ;       6.1.7601.17514;     ; PCI\VEN_8086&DEV_244E&SUBSYS_1589103C&REV_A5
 Intel(R) C600/X79 series chipset USB2 Enhanced Host Controller #1 - 1D26        ; Intel                              ;           9.2.3.1013;     ; PCI\VEN_8086&DEV_1D26&SUBSYS_1589103C&REV_05
-Intel(R) Xeon(R) E7 v2/Xeon(R) E5 v2/Core i7 IOAPIC - 0E2C                      ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2C&SUBSYS_0E2C8086&REV_04
+Intel(R) Xeon(R)ï¿½E7 v2/Xeon(R) E5 v2/Core i7 IOAPIC - 0E2C                      ; Intel                              ;           9.3.2.1009;     ; PCI\VEN_8086&DEV_0E2C&SUBSYS_0E2C8086&REV_04
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel Processor                                                                 ; Intel                              ;       6.1.7600.16385;     ; ACPI\GenuineIntel_-_Intel64_Family_6_Model_62
 Intel(R) C600 Series Chipset SATA RAID Controller                               ; Intel Corporation                  ;           3.1.0.1068;     ; PCI\VEN_8086&DEV_2826&SUBSYS_1589103C&REV_05
@@ -567,7 +567,7 @@ Copyright MAXON Computer GmbH. All rights reserved.
                                                                                 
                                                                                 
 This Software License Agreement (the "Agreement") is a legal agreement between  
-you and MAXON Computer GmbH, Max-Planck-Straße 20, 61381 Friedrichsdorf,        
+you and MAXON Computer GmbH, Max-Planck-Straï¿½e 20, 61381 Friedrichsdorf,        
 Germany ("MAXON"), governing the use of the software development kit MELANGE.   
                                                                                 
 By downloading or using MELANGE, you agree to be bound by and comply with the   
@@ -627,7 +627,7 @@ you are not allowed to download or use MELANGE or any portion thereof.
  the terms of the German Product Liability Act; and (4) under a guarantee       
  granted by MAXON.                                                              
                                                                                 
- 3.2. Subject to Sec. 3.1 above, MAXON’s liability for slightly negligent       
+ 3.2. Subject to Sec. 3.1 above, MAXONï¿½s liability for slightly negligent       
  breaches of cardinal duties shall be limited to such damage which was typical  
  for this kind of business and foreseeable upon the execution of this           
  Agreement. Cardinal duties are duties of MAXON which enable the performance of 
@@ -641,7 +641,7 @@ you are not allowed to download or use MELANGE or any portion thereof.
 4. Termination                                                                  
                                                                                 
  4.1. MAXON shall have the right to terminate this Agreement with immediate     
- effect, if you (1) breach MAXON’s intellectual property rights; or (2)         
+ effect, if you (1) breach MAXONï¿½s intellectual property rights; or (2)         
  materially breach any provision of this Agreement and fail to cure such breach 
  within twenty (20) days after receiving written notice specifying such breach  
  from MAXON.                                                                    
@@ -1057,8 +1057,7 @@ lugin QuicktimeRenderer: InitializeQTML failed  -2093}>
 Quicktime not installed?                                                        
 ERROR: Plugin 'C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip' c
 annot be used, because required software is not installed.                      
-C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip: Load ok. Init fa
-iled.                                                                           
+C:\Program Files (x86)\vizrt\Viz3\Plugin\QuicktimeRenderer.vip: Load ok. Init failed.
 C:\Program Files (x86)\vizrt\Viz3\Plugin\Rectangle.vip: Load ok. Init ok.       
 C:\Program Files (x86)\vizrt\Viz3\Plugin\RFx2DSphere.vip: Load ok. Init ok.     
 C:\Program Files (x86)\vizrt\Viz3\Plugin\RFxClouds.vip: Load ok. Init ok.       

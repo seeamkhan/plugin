@@ -27,7 +27,7 @@ def count_plugin():
                 current = i
                 success_count += 1
             if load_fail in line or init_fail in line:
-                if i<1:
+                # if i<1:
                 start = "\\"
                 end = ":"
                 fail_count += 1
