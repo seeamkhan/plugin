@@ -21,33 +21,28 @@ def count_plugin():
     failed_plugin_list = []
     current = ''
     for i, line in enumerate(f):
-        new_all_line_list = all_line_list.append(line)
-
+        all_line_list.append(line)
         if vip_string in line:
             if success in line:
                 current = i
                 success_count += 1
-                test = ''.join(new_all_line_list)
-                write_output(test)
             if load_fail in line or init_fail in line:
+                if i<1:
                 start = "\\"
                 end = ":"
                 fail_count += 1
-                # test = ''.join(all_line_list)
-                # write_output(test)
-                # if video_string in all_line_list:
-                #     print "ok....."
-                #     test = ''.join(all_line_list)
-                #     write_output(test)
+                # # collect all the error message
                 # plugin_load_error_message = ''.join(all_line_list[current+1:i])
                 # failed_plugin_list.append(plugin_load_error_message)
-
     error_message_list = '\n'.join(failed_plugin_list)
+
+    # error_message_list = '\n'.join(failed_plugin_list)
     # write_output(error_message_list)
     # print '\n'.join(failed_plugin_list)
     # print "Successful plugins load: %d" % success_count
     # print ".......Fail plugins: %d" % fail_count
 
+def matrox_discard(success_count, fail_count):
     f = open(filename)
     data = f.read()
     # print data
