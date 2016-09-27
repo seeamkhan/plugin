@@ -6,6 +6,7 @@ raw_input('press ENTER to continue or CTRL-C to exit..')
 video_string = 'Hardware: System  Video'
 matrox_not_installed_string = "Matrox DSX.utils version is empty."
 matrox_failed_string = "Plugin\MatroxFileWriter.vip: Load"
+
 # Get the file name.
 filename = raw_input('Enter the file name here: ')
 
