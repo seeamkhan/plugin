@@ -1,4 +1,0 @@
-The number of plugins loaded correctly: 258
-The number of plugins failed to load or initiate: 0
-
-
