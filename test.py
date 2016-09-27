@@ -87,7 +87,7 @@ def find_plugin_name(line, plugin_name_start, plugin_name_end):
     return plugin_name
 
 
-# Function for writing the final output in a file named 'plugin_report.txt'
+# Function for writing the final output in a file named 'plugin_report.txt'. New file will be created if the file is not already exist.
 def write_output(something):
     target = open("plugin_report.txt", 'w')
     target.truncate()
