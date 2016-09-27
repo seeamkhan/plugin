@@ -1,7 +1,8 @@
 import time
 
 # Print an introductory text.
-print "To get the plugin report, you need to enter the logfile name.\nor enter the full file path of the logfile if it's not in the same location.\nFor Example: Test_data/PluginLoadError.log"
+print 'To get the plugin report, you need to enter the logfile name.\nor enter the full file path of the logfile ' \
+      'if it\'s not in the same location.\nFor Example: Test_data/PluginLoadError.log'
 raw_input('press ENTER to continue or CTRL-C to exit..')
 video_string = 'Hardware: System  Video'
 matrox_not_installed_string = "Matrox DSX.utils version is empty."
@@ -146,7 +147,7 @@ error_message = count_plugin()[2]
 # Create final output strings.
 success_count_string = "The number of plugins loaded correctly: %d" % success_count
 failed_count_string = "The number of plugins failed to load or initiate: %d" % fail_count
-final_output = "%s\n%s\n\n%s\n" % (success_count_string, failed_count_string, error_message)
+final_output = "%s\n%s\n\nList of failed Plugins:\n\n%s\n" % (success_count_string, failed_count_string, error_message)
 
 # Write the output in the 'plugin_report.txt' file using 'write_output()' function.
 write_output(final_output)
