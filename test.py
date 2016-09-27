@@ -1,5 +1,4 @@
-from sys import argv
-import io
+import time
 
 
 # script, filename = argv
@@ -89,3 +88,4 @@ final_output = "%s\n%s\n\n%s\n" % (success_count_string, failed_count_string, er
 
 write_output(final_output)
 print "The report has been generated successfully...\nPlease check the file: 'plugin_report.txt' for details."
+time.sleep(3)
