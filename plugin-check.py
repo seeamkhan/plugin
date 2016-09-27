@@ -10,11 +10,17 @@ matrox_failed_string = "Plugin\MatroxFileWriter.vip: Load"
 # Get the file name.
 filename = raw_input('Enter the file name here: ')
 
+
 # Function for write File open error message.
 def write_error_log(Error):
+    """
+Error parameter should contains the string of the error message when the file could not open.
+    :param Error:
+    """
     target = open("Error_log.txt", 'a')
     target.write(Error)
     target.close()
+
 
 # Validate file, write error message for invalid file, in the 'Error_log.txt' file.
 try:
@@ -24,8 +30,13 @@ except IOError, e:
     error_msg = "%s. \nPlease check the file name and try again.\n" % io_error
     write_error_log(error_msg)
 
-# Function for counting the successfully loaded/initialized plugins, failed plugins, get the failed plugin names and get the error messages.
+
 def count_plugin():
+    """
+    Function for counting the successfully loaded/initialized plugins, failed plugins,
+    get the failed plugin names and get the error messages.
+    :return: number of successful plugins, number of failed plugins and all the error messages.
+    """
     success_count = 0
     fail_count = 0
     # Open the file
@@ -51,7 +62,12 @@ def count_plugin():
                 success_count += 1
             # Check if the plugin load/initializing failed string found, then count the failed plugins.
             if load_fail in line or init_fail in line:
-                # Check for the exceptions, if the engine runs as VGA version or Matrox DSX Utils are not installed, the plugin MatroxFilewriter.vip must be ignored.
+                """
+                Check for the exceptions, if the engine runs as VGA version or Matrox DSX Utils are not installed,
+                the plugin MatroxFilewriter.vip must be ignored.
+
+                """
+
                 if matrox_failed_string in line:
                     if matrox_not_installed_string in all_line_list:
                         pass
@@ -63,9 +79,10 @@ def count_plugin():
                             plugin_name_string = "Plugin name: %s\n" % plugin_name
                             error_message_list.append(plugin_name_string)
                             # Found the error message for the failed plugins from the 'all_line_list'.
-                            plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                            plugin_load_error_message = ''.join(all_line_list[current + 1:i])
                             # Create a readable error message string.
-                            plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                            plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (
+                                plugin_name, plugin_load_error_message)
                             # Check if there any failed plugin with no error message.
                             if not plugin_load_error_message:
                                 error_message_list.append("No error message found.")
@@ -81,7 +98,8 @@ def count_plugin():
                     # Found the error message for the failed plugins from the 'all_line_list'.
                     plugin_load_error_message = ''.join(all_line_list[current + 1:i])
                     # Create a readable error message string.
-                    plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                    plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (
+                        plugin_name, plugin_load_error_message)
                     # Check if there any failed plugin with no error message.
                     if not plugin_load_error_message:
                         error_message_list.append("No error message found.")
@@ -94,20 +112,31 @@ def count_plugin():
     return success_count, fail_count, error_message
 
 
-# Function for finding plugin name from the plugin status string.
 def find_plugin_name(line, plugin_name_start, plugin_name_end):
+    """
+    Function for finding plugin name from the plugin status string.
+    :param line: string of the current line
+    :param plugin_name_start: start string to determine a plugin name
+    :param plugin_name_end: end string to determine a plugin name
+    :return: substring of the line which represents the plugin name.
+    """
     start = line.find(plugin_name_start) + 8
     end = line.find(plugin_name_end)
     plugin_name = line[start:end]
     return plugin_name
 
 
-# Function for writing the final output in a file named 'plugin_report.txt'. New file will be created if the file is not already exist.
 def write_output(something):
+    """
+    Function for writing the final output in a file named 'plugin_report.txt'.
+    New file will be created if the file is not already exist.
+    :param something: final output string
+    """
     target = open("plugin_report.txt", 'w')
     target.truncate()
     target.write(something)
     target.close()
+
 
 # Assign returned values from the 'count_plugin()' function.
 success_count = count_plugin()[0]

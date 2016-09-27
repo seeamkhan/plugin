@@ -9,11 +9,14 @@ matrox_failed_string = "Plugin\MatroxFileWriter.vip: Load"
 # Get the file name.
 filename = raw_input('Enter the file name here: ')
 
+
 # Function for write File open error message.
 def write_error_log(Error):
     target = open("Error_log.txt", 'a')
     target.write(Error)
     target.close()
+
+
 # Validate file, write error message for invalid file, in the 'Error_log.txt' file.
 try:
     f = open(filename)
@@ -21,6 +24,7 @@ except IOError, e:
     io_error = str(e)
     error_msg = "%s. \nPlease check the file name and try again.\n" % io_error
     write_error_log(error_msg)
+
 
 # Function for counting the successfully loaded/initialized plugins, failed plugins, get the failed plugin names and get the error messages.
 def count_plugin():
@@ -61,9 +65,10 @@ def count_plugin():
                             plugin_name_string = "Plugin name: %s\n" % plugin_name
                             error_message_list.append(plugin_name_string)
                             # Found the error message for the failed plugins from the 'all_line_list'.
-                            plugin_load_error_message = ''.join(all_line_list[current+1:i])
+                            plugin_load_error_message = ''.join(all_line_list[current + 1:i])
                             # Create a readable error message string.
-                            plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                            plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (
+                                plugin_name, plugin_load_error_message)
                             # Check if there any failed plugin with no error message.
                             if not plugin_load_error_message:
                                 error_message_list.append("No error message found.")
@@ -79,7 +84,8 @@ def count_plugin():
                     # Found the error message for the failed plugins from the 'all_line_list'.
                     plugin_load_error_message = ''.join(all_line_list[current + 1:i])
                     # Create a readable error message string.
-                    plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (plugin_name, plugin_load_error_message)
+                    plugin_load_error_message_final = "Error Message for %s: \n%s\n" % (
+                        plugin_name, plugin_load_error_message)
                     # Check if there any failed plugin with no error message.
                     if not plugin_load_error_message:
                         error_message_list.append("No error message found.")
