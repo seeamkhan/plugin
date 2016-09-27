@@ -107,6 +107,7 @@ def write_output(something):
     target.write(something)
     target.close()
 
+
 # Assign returned values from the 'count_plugin()' function.
 success_count = count_plugin()[0]
 fail_count = count_plugin()[1]
