@@ -1,8 +1,7 @@
-from sys import argv
-import io
+import os
+import os.path
 
 
-# script, filename = argv
 print "To get the plugin report, you need to enter the logfile name.\nor enter the full file path of the logfile if it's not in the same location.\nFor Example: Test_data/PluginLoadError.log"
 raw_input('press ENTER to continue or CTRL-C to exit..')
 video_string = 'Hardware: System  Video'
@@ -24,6 +23,11 @@ def count_plugin():
     all_line_list = []
     current = ''
     error_message_list = []
+
+    try:
+        os.path.isfile(filename) and os.access(filename, os.R_OK)
+    except IOError:
+        print "Either the file does not exist or is not readable"
 
     for i, line in enumerate(f):
         all_line_list.append(line)
